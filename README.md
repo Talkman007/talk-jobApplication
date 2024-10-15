@@ -23,4 +23,5 @@ A simple job application script for FiveM that allows players to apply for diffe
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Preview
-![job](https://github.com/user-attachments/assets/6c7ad1a2-b2c3-4836-ba8b-39ff27ee8f78)
+![1_image](https://github.com/user-attachments/assets/6c7ad1a2-b2c3-4836-ba8b-39ff27ee8f78)
+![2_image](https://github.com/user-attachments/assets/888de754-4506-4d00-bea0-c5625ee24072)
