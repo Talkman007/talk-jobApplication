@@ -17,6 +17,16 @@ local function handleJobApplication(jobData)
         local reason = input[3]
         local message = string.format("**New Job Application for %s**\n**Name:** %s\n**Phone:** %s\n**Reason:** %s", jobData.job, name, phone, reason)
 
+        -- Check if webhook is available, if not, notify player
+        if not jobData.webhook or jobData.webhook == '' then
+            lib.notify({
+                title = 'Error',
+                description = 'No webhook is set for this job application. Please inform the server administrator.',
+                type = 'error',
+            })
+            return -- Exit the function as there is no valid webhook
+        end
+
         -- Send data to the server for Discord webhook
         TriggerServerEvent('job-application:submit', jobData.webhook, message)
 
