@@ -12,7 +12,7 @@ Config = {
         --    job = 'mechanic',
         --    ped = 's_m_y_xmech_01',
         --    location = vector3(1182.86, 2640.03, 37.81),
-        --    webhook = 'https://discord.com/api/webhooks/1293295265788461149/7mKriyA-pIbivCYaQe19Wq2gasKJta08rkwdKKpnZRohP-awIkaJyJzeLYZvXEoRusU-'
+        --    webhook = ''
         --}
     }
 }
