@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'YourName'
+author 'Talkman'
 description 'Job Application Script using ox_lib and QBCore'
 version '1.0.0'
 
