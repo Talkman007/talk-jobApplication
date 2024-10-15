@@ -1,4 +1,10 @@
 local function sendToDiscord(webhook, message)
+    -- Check if the webhook is defined
+    if not webhook or webhook == '' then
+        print("^1[Job Application] Error: No webhook provided for this job.^0")
+        return
+    end
+
     local discordData = {
         {
             ['color'] = 16711680,
