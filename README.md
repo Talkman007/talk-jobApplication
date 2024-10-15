@@ -16,10 +16,11 @@ A simple job application script for FiveM that allows players to apply for diffe
 - **oxmysql**: [Download oxmysql](https://github.com/overextended/oxmysql)
 
 ## Installation
-
 1. Download the latest version of this repository and extract it to your FiveM server's resources directory.
 2. Configure the `config.lua` file to customize jobs, ped locations, webhooks, and target system.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Preview
+![job](https://github.com/user-attachments/assets/6c7ad1a2-b2c3-4836-ba8b-39ff27ee8f78)
