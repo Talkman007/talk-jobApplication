@@ -37,7 +37,7 @@ local function handleJobApplication(jobData)
             type = 'success',
         })
     else
-        lib.notify({title = 'Application Canceled', type = 'inform'})
+        lib.notify({title = 'Application Canceled', type = 'error'})
     end
 end
 
